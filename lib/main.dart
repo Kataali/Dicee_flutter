@@ -56,6 +56,7 @@ class _DicePageState extends State<DicePage> {
         TextButton(
           onPressed: () {
             setState(() {
+
               message1 = 'Tap on the respective buttons to roll dice.';
               lDiceNum = 1;
               rDiceNum = 1;
